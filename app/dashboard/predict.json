@@ -1,0 +1,27 @@
+[
+    {
+        "codigo": "AICM",
+        "region": "The Federal District",
+        "delay_minutes": 57.34
+    },
+    {
+        "codigo": "GDL",
+        "region": "Jalisco",
+        "delay_minutes": 1.09
+    },
+    {
+        "codigo": "MTY",
+        "region": "Nuevo Le\u00c3\u00b3n",
+        "delay_minutes": 16.24
+    },
+    {
+        "codigo": "CUN",
+        "region": "Quintana Roo",
+        "delay_minutes": 73.83
+    },
+    {
+        "codigo": "TIJ",
+        "region": "Baja California",
+        "delay_minutes": 0.25
+    }
+]

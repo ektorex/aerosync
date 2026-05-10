@@ -180,7 +180,7 @@ async def main():
     )
 
 
-    time.sleep(30)
+    time.sleep(15)
     await scheduler.start()
     
 
