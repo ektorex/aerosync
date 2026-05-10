@@ -1,0 +1,14 @@
+#! /usr/bin/env bash
+
+# (
+#   cd app/dashboard
+#   python3 -m http.server 8000 > /dev/null 2>&1 &
+# )
+
+wait
+
+cd app
+/usr/bin/env mpiexec -n 4 python main.py &
+
+cd dashboard
+python3 -m http.server 8000 
