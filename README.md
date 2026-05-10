@@ -1,5 +1,7 @@
 # Flight Monitoring & Delay Prediction System
 
+![Dashboard](dashboard.png)
+
 Proyecto distribuido para monitoreo de vuelos en tiempo real y predicción de retrasos utilizando procesamiento paralelo, programación asíncrona y visualización web.
 
 ## Características
