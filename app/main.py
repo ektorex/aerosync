@@ -85,10 +85,6 @@ def predict_delay(input_data):
         "delay_minutes": round(float(prediction), 2)
     }
 
-
-
-
-
 def get_w():
     # SOLO rank 0 divide
     if rank == 0:
@@ -140,7 +136,6 @@ def get_w():
         with open("dashboard/predict.json", "w") as f:
             json.dump(resultados_completos, f, indent=4)
 
-
 def get_f():
 
     if rank == 0:
@@ -185,7 +180,7 @@ async def main():
     )
 
 
-    time.sleep(6)
+    time.sleep(30)
     await scheduler.start()
     
 
